@@ -1,0 +1,8 @@
+#!/bin/bash
+set -eu
+
+TARGET="build"
+rm -rf ${TARGET}
+mkdir -p ${TARGET}
+npx elm make src/Sliders.elm --output=${TARGET}/temp/sliders.js --optimize
+cp public/index.html ${TARGET}

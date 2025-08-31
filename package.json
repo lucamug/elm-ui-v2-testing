@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "version": "0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cmd/start",
+    "build": "cmd/build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "elm": "^0.19.1-6",
+    "elm-watch": "^2.0.0-beta.6"
+  }
+}

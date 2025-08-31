@@ -1,0 +1,12 @@
+{
+    "serve": "./public/",
+    "port": 4040,
+    "targets": {
+        "sliders": {
+            "inputs": [
+                "./src/Sliders.elm"
+            ],
+            "output": "./build-generated/sliders.js"
+        }
+    }
+}

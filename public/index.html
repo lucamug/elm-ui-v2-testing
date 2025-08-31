@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel="icon" href="/favicon.ico">
+    <style>
+    </style>
+</head>
+<body>
+    <script src="temp/sliders.js"></script>
+    <div id="ua" style="margin: 20px"></div>
+    <main></main>
+    <script>
+        var app = Elm.Sliders.init({ node: document.querySelector('main') })
+        ua.innerText = navigator.userAgent.includes("Chrome") ? "Chrome" : (navigator.userAgent.includes("Safari") ? "Safari" : "Unknown");
+    </script>
+</body>
+</html>
