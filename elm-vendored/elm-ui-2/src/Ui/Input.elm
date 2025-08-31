@@ -693,7 +693,7 @@ viewThumb factor (Thumb toThumbAttrs) direction =
                     [ Ui.contentCenterY
                     , Ui.contentCenterX
                     , Ui.width (Ui.px 0)
-                    , Ui.height (Ui.px 0)
+                    , Ui.move <| Ui.up 8
                     ]
                     (Ui.el thumbAttributes.thumb
                         Ui.none
